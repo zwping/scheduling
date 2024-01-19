@@ -1,0 +1,32 @@
+{
+    "name": "zwping/scheduling",
+    "alias": "",
+    "description": "Description...",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/zwping/scheduling",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "your name",
+            "email": "your email"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Encore\\Admin\\Scheduling\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Encore\\Admin\\Scheduling\\SchedulingServiceProvider",
+        "laravel": {
+            "providers": [
+                "Encore\\Admin\\Scheduling\\SchedulingServiceProvider"
+            ]
+        }
+    }
+}
