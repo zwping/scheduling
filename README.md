@@ -4,7 +4,8 @@
 
 ## 截图
 
-![wx20170810-101048](https://user-images.githubusercontent.com/1479100/29151552-8affc0b2-7db4-11e7-932a-a10d8a42ec50.png)
+![main](screenshot/main.png)
+![run](screenshot/run.png)
 
 ## 安装
 
