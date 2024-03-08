@@ -1,15 +1,19 @@
 {
     "name": "zwping/scheduling",
     "alias": "",
-    "description": "Description...",
+    "description": "Task scheduling extension for dcat-admin",
     "type": "library",
-    "keywords": ["dcat-admin", "extension"],
+    "keywords": ["dcat-admin", "extension", "task", "scheduling"],
     "homepage": "https://github.com/zwping/scheduling",
     "license": "MIT",
     "authors": [
         {
-            "name": "your name",
-            "email": "your email"
+            "name": "zwping",
+            "email": "1101558280@qq.com"
+        },
+        {
+            "name": "z-song",
+            "email": "zosong@126.com"
         }
     ],
     "require": {

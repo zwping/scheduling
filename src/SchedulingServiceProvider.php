@@ -14,21 +14,26 @@ class SchedulingServiceProvider extends ServiceProvider
 		'css/index.css',
 	];
 
-	public function register()
-	{
+	public function register() {
 		//
 	}
 
-	public function init()
-	{
+	public function init() {
 		parent::init();
 
 		//
 		
 	}
 
-	public function settingForm()
-	{
-		return new Setting($this);
-	}
+    protected $menu = [
+        [
+            'title' => 'Scheduling',
+            'uri'   => 'scheduling',
+            'icon'  => 'fa-clock-o',
+        ],
+    ];
+
+	// public function settingForm() {
+	// 	return new Setting($this);
+	// }
 }
