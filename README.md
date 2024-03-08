@@ -4,8 +4,8 @@
 
 ## 截图
 
-![main](screenshot/main.png)
-![run](screenshot/run.png)
+![main](https://raw.githubusercontent.com/zwping/scheduling/master/screenshot/main.png)
+![run](https://raw.githubusercontent.com/zwping/scheduling/master/screenshot/run.png)
 
 ## 安装
 
