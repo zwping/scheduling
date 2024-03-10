@@ -1,5 +1,7 @@
 # Dcat Admin Extension
 
+[![](https://img.shields.io/packagist/v/zwping/scheduling.svg)](https://packagist.org/packages/zwping/scheduling)
+
 后台管理Laravel定时任务
 
 ## 截图
@@ -9,11 +11,10 @@
 
 ## 安装
 
-```
-composer require zwping/scheduling
-
-http://your-host/admin/auth/extensions 中更新&启用
-```
+1. `composer require zwping/scheduling`
+2. 扩展中更新&启用
+3. 配置用户菜单&权限
+4. 打开 http://your-host/admin/scheduling
 
 
 在`app/Console/Kernel.php`中添加一些定时任务
