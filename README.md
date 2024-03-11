@@ -1,8 +1,7 @@
-# Dcat Admin Extension
+# 后台管理Laravel定时任务
 
 [![](https://img.shields.io/packagist/v/zwping/scheduling.svg)](https://packagist.org/packages/zwping/scheduling)
 
-后台管理Laravel定时任务
 
 ## 截图
 
